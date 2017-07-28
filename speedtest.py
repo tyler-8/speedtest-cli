@@ -1376,7 +1376,7 @@ def shell():
     # Pre-cache the user agent string
     build_user_agent()
 
-    if args.simple or args.csv or args.json:
+    if args.simple or args.csv:
         quiet = True
     else:
         quiet = False
